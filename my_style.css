@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #FF928B; */
+    background-image: url("tic.img.png");
+    margin: 0;
+    background-size: cover;
+    text-align: center;
+     
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin ;
+    width: 18vmin ;
+    border-radius: 1rem;
+    border: 0px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: #FFAC81;
+    background-color: #CDEAC0;
+}
+
+#resetbtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #AAFAC8  ;
+    color: black;
+    border-radius: 1rem;
+    border: none;
+    font-family: cursive;
+}
+
+#Newbtn{
+  padding : 1rem;
+  font-size: 1.25rem;
+  background-color:#FEC3A6;
+  color: black;
+  border-radius: 1rem;
+  border: none;
+  color: #9883E5;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #AAFAC8;
+    background-size:contain;
+    /* color: black; */
+    border-radius: 1rem;
+    border: none;
+    font-family: cursive;
+    margin-top: 8%;
+    font-weight: 900;
+}
+
+#msg{
+    color: white;
+    font-size: 5vmin;
+}
+
+.msg-container{
+    height : 80vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
+
+#header{
+    color: #9883E5;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #AAFAC8;
+    background-size:contain;
+    /* color: black; */
+    border-radius: 1rem;
+    border: none;
+    font-family: cursive;
+    margin-top: 8%;
+    font-weight: 900;
+}
